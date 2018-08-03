@@ -1,0 +1,96 @@
+[
+	{
+		"fields": [
+			{
+				"monitor_type": "dimension",
+				"type": "string",
+				"name": "node",
+				"unit": "",
+				"description": "节点"
+			},
+			{
+				"monitor_type": "dimension",
+				"type": "string",
+				"name": "service_id",
+				"unit": "",
+				"description": "服务ID"
+			},
+			{
+				"monitor_type": "dimension",
+				"type": "string",
+				"name": "service_name",
+				"unit": "",
+				"description": "服务名"
+			},
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_catalog_service_node_healthy",
+				"unit": "",
+				"description": "consul_catalog_service_node_healthy"
+			},
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_health_service_status",
+				"unit": "",
+				"description": "consul_health_service_status"
+			}
+		],
+		"table_name": "service_node",
+		"table_desc": "服务节点状态"
+	},
+	{
+		"fields": [
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_up",
+				"unit": "",
+				"description": "consul_up"
+			}
+		],
+		"table_name": "consul_up",
+		"table_desc": "consul状态"
+	},
+	{
+		"fields": [
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_health_node_status",
+				"unit": "",
+				"description": "Consul Node Status"
+			}
+		],
+		"table_name": "node_status",
+		"table_desc": "节点状态"
+	},
+	{
+		"fields": [
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_catalog_services",
+				"unit": "个",
+				"description": "consul_catalog_services"
+			},
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_raft_leader",
+				"unit": "个",
+				"description": "consul_raft_leader"
+			},
+			{
+				"monitor_type": "metric",
+				"type": "long",
+				"name": "consul_raft_peers",
+				"unit": "个",
+				"description": "consul_raft_peers"
+			}
+		],
+		"table_name": "overview",
+		"table_desc": "总览"
+	}
+]
