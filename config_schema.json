@@ -1,0 +1,10 @@
+[
+    {
+        "default": "http://127.0.0.1:9107/metrics",
+        "mode": "collector",
+        "type": "text",
+        "name": "_exporter_url_",
+        "description": "Consul指标采集器",
+        "visible": false
+    }
+]
