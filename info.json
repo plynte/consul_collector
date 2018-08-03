@@ -1,0 +1,5 @@
+[{
+    "name": "consul exporter",
+    "display_name": "Consul Exporter",
+    "version": "v0.3.0.linux-amd64"
+}]
